@@ -1,0 +1,67 @@
+:root {
+    --dark-bg: #1f2937;
+    --hero-text-primary: #f9faf8;
+    --hero-text-secondary: #e5e7eb;
+    --header--text: #f9faf8;
+    --header-info-text: #1f2937;
+    --cta-btn-bg: #3882f6;
+    --quote-bg: #e5e7eb;
+    --quote-text: #1f2937;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+#header-wrapper{
+    padding: 1rem;
+    background-color: var(--dark-bg);
+    width: 100%;
+
+    height: 3rem;
+
+}
+.header {
+    color: var(--header--text);
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-logo{
+    font-size: 24px;
+}
+
+.header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header li{
+    list-style-type: none;
+}
+
+.header a{
+    text-decoration: none;
+    color: var(--header--text);
+    font-size: 18px;
+}
+
+/* HERO */
+
+#hero-wrapper {
+    background-color: var(--dark-bg);
+
+    min-height: 300px;
+}
+
+/*  */
